@@ -1,4 +1,4 @@
-//Importa el paquete que contiene la clase Scanner  
+﻿//Importa el paquete que contiene la clase Scanner  
   import java.util.*;
   
 //Definicion de la clase
@@ -19,7 +19,7 @@
         animal1.setNombre(teclado.nextLine());
 
       //Pedir la edad del animal
-        System.out.print("Teclee la edad del animal: ");
+        System.out.print("Teclee la edad del animal en meses: ");
         int edad = teclado.nextInt();
         
       //Asignar edad al objeto animal1
@@ -28,7 +28,7 @@
       //Informar de los datos de animal1
         animal1.nace();
         System.out.println("Mi nombre es: " + animal1.getNombre() +
-                           " y mi edad es " + animal1.getEdad() );
+                           " y mi edad es " + animal1.getEdad() +" meses");
      }
 
   }       
